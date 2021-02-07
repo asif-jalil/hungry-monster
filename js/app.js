@@ -48,6 +48,7 @@ function displayMeal(mealData) {
       searchResultContainer.appendChild(searchItem);
     })
   }
+  document.getElementById('search-input').value = '';
 }
 
 
