@@ -1,0 +1,22 @@
+.navbar-brand img {
+  width: 60px;
+}
+
+#search-result .card {
+  cursor: pointer;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul li {
+  font-size: 1.1rem;
+  color: #666362;
+}
+
+.card ul li img {
+  margin-right: 7px;
+}
