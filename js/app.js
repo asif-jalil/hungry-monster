@@ -1,5 +1,5 @@
 // Search button trigger
-function searchMeal() {
+const searchMeal = () => {
   const searchText = document.getElementById('search-input').value.trim();
   fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${searchText}`)
     .then(res => res.json())
@@ -13,7 +13,7 @@ function searchMeal() {
 
 
 // Display all searched meal
-function displayMeal(mealData) {
+const displayMeal = mealData => {
   const searchResultContainer = document.getElementById('search-result');
   const mealDetails = document.getElementById('meal-detail');
 
