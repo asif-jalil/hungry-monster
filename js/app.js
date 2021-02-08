@@ -128,8 +128,8 @@ const displayMealDetails = meal => {
     if (ingredient !== '') {
       const li = document.createElement('li');
       li.innerHTML = `
-      <img src="img/check.svg"> <span>${measure} ${ingredient}</span>
-    `;
+        <img src="img/check.svg"> <span>${measure} ${ingredient}</span>
+      `;
       mealIngredient.appendChild(li);
     }
   }
