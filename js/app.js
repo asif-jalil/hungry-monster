@@ -6,7 +6,7 @@ const searchMeal = () => {
     .then(data => {
       displayMeal(data);
     })
-    .catch(() => {
+    .catch(error => {
       mealError();
     })
 }
